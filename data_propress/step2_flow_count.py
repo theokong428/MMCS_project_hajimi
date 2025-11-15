@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv("merged_2018_2021.csv")
+df = pd.read_csv("data_propress/merged_2018_2021.csv")
 
 # 2. analyse time
 df['started_at'] = pd.to_datetime(df['started_at'], errors='coerce')
