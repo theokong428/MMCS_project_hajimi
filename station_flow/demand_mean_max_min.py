@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 读取你的站点时段需求数据
-df = pd.read_csv("station_record.csv")
+df = pd.read_csv("station_record2.csv")
 ### weekday=1时，说明是工作日###
 
 # 确保 time_start 是整数小时
@@ -18,5 +18,5 @@ agg = df.groupby(["station_id", "workday", "time_start"]).agg(
 ).reset_index()
 
 # 保存总表
-agg.to_csv("station_hourly_demand_prediction.csv", index=False)
-print("已生成：station_hourly_demand_prediction.csv（包含所有站点）")
+agg.to_csv("station_hourly_demand_prediction2.csv", index=False)
+print("已生成：station_hourly_demand_prediction2.csv（包含所有站点）")
