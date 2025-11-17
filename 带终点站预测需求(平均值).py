@@ -36,7 +36,7 @@ agg['zero_rate'] = agg['days_with_zero_trips'] / n_days # π
 agg['overall_avg_trips'] = agg['total_trips'] / n_days # λ
 
 # 计算非零计数过程的泊松率 (λ_c)： λ_c = λ / (1 - π)
-# ⚠️ 必须处理零膨胀率为 1.0 的情况 (即从未发生过 trips 的 OD 对)，此时 λ_c 设为 0
+#  必须处理零膨胀率为 1.0 的情况 (即从未发生过 trips 的 OD 对)，此时 λ_c 设为 0
 agg['count_process_rate'] = np.where(
     agg['zero_rate'] < 1.0,
     agg['overall_avg_trips'] / (1 - agg['zero_rate']),
