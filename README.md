@@ -22,7 +22,7 @@ project：
 │   ├── Step2_Capacity.ipynb             # Station capacity modeling
 │   ├── Step3_Reblancing.ipynb           # Reorder data and GA-based model
 │   ├── Step4_Test.ipynb                 # Simulate capacity performance and price testing
-│   └── 05_Visualization.ipynb           # Mapping, charts, and result visualization
+│   └── Step5_Visualization.ipynb        # Mapping, charts, and result visualization
 │
 │
 └── README.md
