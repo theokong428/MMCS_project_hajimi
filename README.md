@@ -2,7 +2,7 @@
 ## Files and Directory Overview (Recommended Structure)
 
 ```text
-project/
+project：
 ├── data/
 │   ├── merged_2018_2021.csv
 │   ├── od.csv
@@ -14,6 +14,9 @@ project/
 │   ├── station_daily_balance_daytype_1.csv
 │   ├── station_tasks.csv
 │   └── distance_matrix_int_km.csv
+│
+│
+│
 ├── notebooks/
 │   ├── Step1_data_preprocess.ipynb      # Data cleaning and demand prediction by ZIP
 │   ├── Step2_Capacity.ipynb             # Station capacity modeling
