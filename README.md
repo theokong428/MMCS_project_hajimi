@@ -1,7 +1,3 @@
-# Shared Bike Scheme Project
-
-## Files and Directory Overview (Recommended Structure)
-
 
 ## Files and Directory Overview (Recommended Structure)
 
@@ -18,6 +14,7 @@ project/
 │   ├── station_daily_balance_daytype_1.csv
 │   ├── station_tasks.csv
 │   └── distance_matrix_int_km.csv
+├── notebooks/
 │   ├── Step1_data_preprocess.ipynb      # Data cleaning and demand prediction by ZIP
 │   ├── Step2_Capacity.ipynb             # Station capacity modeling
 │   ├── Step3_Reblancing.ipynb           # Reorder data and GA-based model
