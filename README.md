@@ -18,9 +18,10 @@ project：
 ├── notebooks/
 │   ├── Step1_data_preprocess.ipynb      # Data cleaning and demand prediction by ZIP
 │   ├── Step2_Capacity.ipynb             # Station capacity modeling
-│   ├── Step3_Reblancing.ipynb           # Reorder data and GA-based model
-│   ├── Step4_Test.ipynb                 # Simulate capacity performance and price testing
-│   └── Step5_Visualization.ipynb        # Mapping, charts, and result visualization
+│   ├── Step3_Reblancing.ipynb           # Reorder data 
+│   ├── Step4_GA_Reblancing.ipynb        # Running GA model
+│   ├── Step5_Test.ipynb                 # Simulate capacity performance and price testing
+│   └── Step6_Visualization.ipynb        # Mapping, charts, and result visualization
 │
 │
 └── README.md
